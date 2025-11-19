@@ -4,7 +4,6 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import ScrollToTop from './components/ScrollToTop';
 import HomePage from './pages/HomePage';
 import ToolPage from './pages/ToolPage';
 import PricingPage from './pages/PricingPage';
@@ -14,14 +13,12 @@ import AboutPage from './pages/AboutPage';
 import ExamplesPage from './pages/ExamplesPage';
 import LoginPage from './pages/LoginPage';
 import SignUpPage from './pages/SignUpPage';
-import ShippingPage from './pages/ShippingPage';
 import { PrivacyPage, TermsPage, FAQPage } from './pages/Legal';
 
 const App: React.FC = () => {
   return (
     <HelmetProvider>
       <HashRouter>
-        <ScrollToTop />
         <div className="min-h-screen flex flex-col bg-white text-zinc-900 font-sans">
           <Navbar />
           
@@ -40,7 +37,6 @@ const App: React.FC = () => {
               <Route path="/privacy" element={<PrivacyPage />} />
               <Route path="/terms" element={<TermsPage />} />
               <Route path="/faq" element={<FAQPage />} />
-              <Route path="/shipping" element={<ShippingPage />} />
               <Route path="*" element={<HomePage />} />
             </Routes>
           </div>

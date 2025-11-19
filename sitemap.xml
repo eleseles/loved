@@ -1,71 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Pages -->
   <url>
     <loc>https://lovedonephoto.com/</loc>
+    <lastmod>2025-02-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://lovedonephoto.com/create</loc>
+    <lastmod>2025-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://lovedonephoto.com/examples</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://lovedonephoto.com/pricing</loc>
+    <lastmod>2025-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lovedonephoto.com/blog</loc>
+    <loc>https://lovedonephoto.com/examples</loc>
+    <lastmod>2025-02-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lovedonephoto.com/about</loc>
+    <lastmod>2025-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://lovedonephoto.com/contact</loc>
+    <lastmod>2025-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://lovedonephoto.com/blog</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://lovedonephoto.com/faq</loc>
+    <lastmod>2025-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <!-- Blog Posts -->
   <url>
     <loc>https://lovedonephoto.com/blog/1</loc>
+    <lastmod>2025-02-20</lastmod>
+    <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://lovedonephoto.com/blog/2</loc>
+    <lastmod>2025-02-18</lastmod>
+    <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://lovedonephoto.com/blog/3</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>never</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://lovedonephoto.com/blog/4</loc>
+    <lastmod>2025-02-10</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://lovedonephoto.com/blog/5</loc>
+    <lastmod>2025-02-05</lastmod>
+    <changefreq>never</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Auth & Legal -->
+  <url>
     <loc>https://lovedonephoto.com/login</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://lovedonephoto.com/signup</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://lovedonephoto.com/privacy</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://lovedonephoto.com/terms</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
 </urlset>
