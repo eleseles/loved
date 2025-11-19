@@ -4,6 +4,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import HomePage from './pages/HomePage';
 import ToolPage from './pages/ToolPage';
 import PricingPage from './pages/PricingPage';
@@ -20,6 +21,7 @@ const App: React.FC = () => {
   return (
     <HelmetProvider>
       <HashRouter>
+        <ScrollToTop />
         <div className="min-h-screen flex flex-col bg-white text-zinc-900 font-sans">
           <Navbar />
           
